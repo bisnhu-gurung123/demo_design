@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="landingpage.component.scss">
+</head>
+<body>
+<div class="landingpage">
+  <div class="landingpage__banner">
+    <div><img src="../../assets/images/image.png" height="38px" width="80px" class="landingpage__logo px-48"></div>
+<!--    <div>-->
+<!--      <button mat-button [matMenuTriggerFor]="menu">Menu</button>-->
+<!--      <mat-menu #menu="matMenu">-->
+<!--        <button mat-menu-item>Item 1</button>-->
+<!--        <button mat-menu-item>Item 2</button>-->
+<!--      </mat-menu>-->
+<!--    </div>-->
+<!--    <div>People</div>-->
+<!--    <div>My Profile</div>-->
+    <button mat-button [matMenuTriggerFor]="belowMenu">Below</button>
+    <mat-menu #belowMenu="matMenu" yPosition="below">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+  </div>
+  <div class="landingpage__profile">
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+  </div>
+</div>
+</body>
+</html>

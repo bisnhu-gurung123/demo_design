@@ -1,0 +1,24 @@
+@import "../../assets/stylesheet/style.scss";
+
+
+.landingpage {
+  height: 56px;
+  width: 100%;
+  background-color: $primary;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+  align-items: center;
+
+  &__banner{
+    color: $white-900;
+    display: flex;
+    flex-direction: row;
+  }
+  &__profile{
+    color: $white-900;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
